@@ -110,6 +110,43 @@ input[type=text]:focus, textarea:focus {
     color: white;
     background: #8040ff;
     margin-top: 1.5em;
+    font-weight: bold;
     font-size: 1.2em;
     border-radius: .2em;
+}
+.right-col {
+    margin-top: 2em;
+    line-height: 1.5em;
+    color: #1b1820;
+}
+
+@media(min-width: 650px){
+    main {
+        display: flex;
+        padding: 2em;
+    }
+    .left-col {
+        flex: 0 0 65%;
+        margin-right: 2em;
+    }
+    .right-col {
+        margin: 0;
+    }
+    .cta {
+        /* display: inline-block; */
+        width: unset;
+        float: right;
+        padding: 1em 4em;
+    }
+}
+
+@media (min-width: 950px){
+    main {
+        padding: 2em;
+        width: 900px;
+        margin: 2em auto;
+    }
+    h2 {
+        font-size: 1.7em;
+    }
 }
