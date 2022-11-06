@@ -1,0 +1,46 @@
+select {
+    appearance:none;
+	-webkit-appearance:none;
+	-moz-appearance:none;
+	-ms-appearance:none;
+	background:url('http://www.free-icons-download.net/images/small-down-arrow-icon-15593.png');
+	background-repeat: no-repeat;
+	background-size:16px 17px;
+	background-position: right;
+    background-origin: content-box;
+}
+
+input[type="radio"] {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    display: inline-block;
+    position: relative;
+    border: 2px solid #c6c6c6;
+    color: #666;
+    top: 10px;
+    height: 30px;
+    width: 30px;
+    border-radius: 50px;
+    cursor: pointer;
+    margin-right: 7px;
+    outline: none;
+}
+input[type="radio"]:checked:before {
+    content: '';
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    background: #8040ff;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+}
+.left-label {
+    display: unset;
+    font-weight: normal;
+    margin-right: 2em;
+}
+.mt-extra {
+    margin-top: 2em;
+}
